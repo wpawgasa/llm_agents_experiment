@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "llm-agents-experiment"
+version = "0.1.0"
+description = "Repository for LLM agent experiment"
+authors = ["wichai.p <wichai.p@loolootech.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+openai = "^1.25.2"
+pandas = "^2.2.2"
+anthropic = "^0.25.7"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
